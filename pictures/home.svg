@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="32px" viewBox="0 0 21 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,34.4976267 C12,33.1182256 13.1096621,32 14.5,32 L14.5,32 C15.8807119,32 17,33.1276884 17,34.4976267 C17,34.4976267 17,42 17,42 C17,42 12,42 12,42 C12,42 12,34.4976267 12,34.4976267 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5" height="10" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="180---iPhone-6-Plus" transform="translate(-56.000000, -33.000000)">
+            <g id="Group-2" transform="translate(53.000000, 22.000000)">
+                <text id="v" transform="translate(13.038812, 23.131882) rotate(180.000000) translate(-13.038812, -23.131882) " font-family="ShortStack, Short Stack" font-size="36" font-weight="normal" letter-spacing="3.00000072" fill="#212121">
+                    <tspan x="0.557720079" y="34.6318822">v</tspan>
+                </text>
+                <text id="_" transform="translate(31.500000, 34.500000) rotate(90.000000) translate(-31.500000, -34.500000) " font-family="ShortStack, Short Stack" font-size="24" font-weight="normal" letter-spacing="2.00000048" fill="#212121">
+                    <tspan x="22.9003904" y="42">_</tspan>
+                </text>
+                <text id="_" transform="translate(17.500000, 34.000000) rotate(90.000000) translate(-17.500000, -34.000000) " font-family="ShortStack, Short Stack" font-size="24" font-weight="normal" letter-spacing="2.00000048" fill="#212121">
+                    <tspan x="8.90039039" y="41.5">_</tspan>
+                </text>
+                <text id="_" transform="translate(13.251689, 51.654863) rotate(181.000000) translate(-13.251689, -51.654863) " font-family="ShortStack, Short Stack" font-size="24" font-weight="normal" letter-spacing="2.00000048" fill="#212121">
+                    <tspan x="4.65207954" y="59.1548632">_</tspan>
+                </text>
+                <use id="Rectangle-5" stroke="#212121" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+h1 {
+    font-family: "Short Stack", sans-serif;
+    align-content: center;
+    font-size: 10em;
+    z-index: -1;
+    margin-top: -10em;
+}
+
+h2 { font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-top: 30px;
+}
+
+html { 
+  background: url(pictures/splash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+    .center {
+      z-index: 1;
+      margin: 0 auto;
+      
+    }
+
+    .awesome {
+      
+      font-family: "Short Stack", sans-serif;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+    padding-top: 10px;
+      
+      color:#313131;
+      font-size:95px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: #FF6069;
+      }
+      
+      10% {
+        
+        color: #F7931E;
+      }
+      
+      20% {
+        
+        color: #FF6069;
+      }
+      
+      30% {
+        
+        color: #F7931E;
+      }
+      
+      40% {
+        
+        color: #FF6069;
+      }
+      
+      50% {
+        
+        color: #F7931E;
+      }
+      
+      60% {
+        
+        color: #FF6069;
+      }
+      
+      70% {
+        
+        color: #F7931E;
+      }
+      80% {
+     
+        color: #FF6069;
+      }
+      
+      90% {
+     
+        color: #F7931E;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
+
+/*-----------------BUTTON--------------*/
+
+.button {
+    margin-top: 90px;
+    position: absolute;
+    z-index: 3;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Short Stack", sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    border: solid 5px black;
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    animation: fadeAndScale 2s ease-in;
+    
+}
+
+
+.button:hover {
+    color: black;
+    border: 5px solid #E8388C;
+    transition: 0.4s;
+
+}
+     
+.enter-button { margin-top: 45px;
+    margin-left: -100px
+}
+
+/*-----------clouds---------*/
+
+.bottle {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    left: 65px;
+    top: 40px;
+    z-index: 1;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloud1 { 
+    position: absolute;
+    left: 0px;
+    top: -90px;
+      z-index:2; 
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloud2 {
+    position: absolute;
+    left: -20px;
+    top: -70px;
+    z-index: 2;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloud3 { 
+    position: absolute;
+    right: -120px;
+    top: -60px;
+       z-index: 2;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloud4 {
+    position: absolute;
+     left: -30px;
+    top: -85px;
+    z-index: -1;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cloud5 {
+    position: absolute;
+    left: -30px;
+    top: -60px;
+    z-index: -1;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#axis:hover .multiple {
+    transform: translate(350px, -350px);
+    -webkit-transform: translate(350px, -350px);
+    -o-transform: translate(350px, -350px);
+    -moz-transform: translate(350px, -350px);
+}
+
+
+

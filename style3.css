@@ -1,0 +1,143 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+
+
+h1 {
+    font-family: "Short Stack", sans-serif;
+    align-content: center;
+    color: black;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 60px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5); 
+    
+   }
+
+h2 {
+    font-family: "Short Stack", sans-serif;
+    align-content: center;
+    color: black;
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 60px;
+    z-index: 1;
+    
+   }
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9em;
+}
+
+.container {
+    margin: 100px;
+    border: 2px solid yellow;
+}
+
+.calcium {
+    position: absolute;
+    margin-left: 100px;
+      top: 250px;
+    
+}
+
+.helium {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -100px;
+    z-index: -1;
+    top: 250px;
+    
+}
+
+.potassium {
+    position: absolute;
+    margin-left: 100px;
+    top: 250px;
+}
+
+.oxygen {
+    position: absolute;
+    margin-left: 100px;
+    top: 250px;
+    
+}
+
+.neon {
+    position: absolute;
+    margin-left: 100px;
+    top: 250px;
+    
+}
+
+
+.sidebar {
+     position: fixed;
+     width: 400px;
+     height: 400px;
+ }
+
+
+ .content {
+     margin-left: 400px;
+     height: 4000px;
+     width: auto;
+     position: relative;
+     background: rgba(137, 164, 250, 0.72);
+     overflow: auto;
+     z-index: 1;
+ }
+ .info {
+     position: relative;
+     background: transparent;
+     padding:10px;
+ }
+
+
+.back {
+    height: 7%;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 25px;
+    
+    
+}
+
+.back:hover {
+    height: 8%;
+
+}
+ 
+
+.next {
+    height: 7%;
+    position: absolute;
+    right: 10px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+
+.next:hover {
+    height: 8%;
+}
+
+.home {
+    height: 17%;
+    position: absolute;
+    bottom: -320px;
+    left: 9px;
+    
+    
+}
+
+.home:hover {
+    height: 19%;
+}
+ 
