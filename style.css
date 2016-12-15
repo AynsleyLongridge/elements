@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: rgba(236, 238, 237, 0.89);
 }
 
 h1 {
@@ -17,23 +18,23 @@ h1 {
 
 
 
-
-.potassium { margin-top: 30px;
-}
-
-.neon {}
-
-.oxygen {}
-
-.calcium {}
-
-.helium {}
- 
 .container2{ 
     z-index: 1;
     align-content: center;
-    margin-top: 80px;
-    padding-left: 40px;
-    margin-left: 60px;
+    position: absolute;
+    top: 200px;
+    left: 180px;
 
 }
+
+
+
+.potassium { margin-right:20px;
+}
+.neon {margin-right: 20px;}
+
+.calcium {margin-left: 10px;
+}
+
+.helium {margin-left: 20px;}
+
