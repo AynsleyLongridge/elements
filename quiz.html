@@ -7,18 +7,19 @@
         
 h1 {
     font-family: "Short Stack", sans-serif;
+    font-size: 3em;
             
         }
         
-h2 {  padding:10px;
+h2 {  padding:40px;
       font-family: 'Short Stack', sans-serif;
-            
+    margin-top: 20px;
+
         }
 
 #main {
 width: 80%;
 max-width: 950px;
-border: 1px gray solid;
 margin: auto;
 padding: 10px;
 background-color: white;
@@ -27,12 +28,7 @@ border-radius: 10px;
 }
 
 #header {
-margin-top: 0;
-border: 2px solid black;
-padding: 25px;
-height: 50px;
-background: beige;
-color: black;
+
 }
         
 
@@ -112,7 +108,7 @@ color: black;
   background: #9faab7;
 }
 .option-input:checked {
-  background: #40e0d0;
+  background: rgba(137, 164, 250, 0.72);
 }
 .option-input:checked::before {
   height: 40px;
@@ -128,7 +124,7 @@ color: black;
   -webkit-animation: click-wave 0.65s;
   -moz-animation: click-wave 0.65s;
   animation: click-wave 0.65s;
-  background: #40e0d0;
+  background: rgba(137, 164, 250, 0.72);
   content: '';
   display: block;
   position: relative;
@@ -157,8 +153,8 @@ body {
   -moz-box-align: stretch
   box-align: stretch
   -ms-flex-align: stretch;
-  background: #e8ebee;
-  color: #9faab7;
+  background: #C4EEF3;
+  color: black;
   font-family: "Open sans condensed", sans-serif;
   text-align: left;
 }
@@ -178,12 +174,13 @@ body label {
 
     text-decoration: none;
     text-transform: uppercase;
-    color: #40e0d0;
+    color: black;
     font-family: "Short Stack", sans-serif;
-    font-size: 2.4em;
-    margin-top: 30px;
+    font-size: 1.4em;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 8px;
-    border: 7px solid #40e0d0;
+    border: 7px solid rgba(137, 164, 250, 0.72);
     background: transparent;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     animation: fadeAndScale 2s ease-in;
@@ -192,16 +189,37 @@ body label {
 
 
 .submit:hover {
-    color: white;
-    border: 7px solid #40e0d0;
-    background: #40e0d0;
+    color: rgba(137, 164, 250, 0.72);
+    border: 7px solid black;
+    
     transition: 0.4s;
 
 }
      
-
+.grade {font-family: "Short Stack", sans-serif;
+        font-size: 2.4em;
+    margin-top: 30px;}
     
+.result {font-family: "Short Stack", sans-serif;
+        font-size: 2.4em;
+    margin-top: 30px;}
+    
+.result2 {font-family: "Short Stack", sans-serif;
+        font-size: 2.4em;
+    margin-top: 30px;}
+    
+.home {
+    height: 14%;
+    position: absolute;
+    top:25px;
+    left: 25px;
+    
+    
+}
 
+.home:hover {
+    height: 16%;
+}
         
 </style>
 
@@ -214,7 +232,10 @@ body label {
 <body>
 <div id="main"><!-- open main div -->
 <div id="header"><!-- open header div -->
-<h1>Elements Quiz</h1>
+    <a href="home.html">
+  <img src="pictures/home.svg" class="home">
+</a>
+    <center><h1>Elements Quiz</h1></center>
 </div><!-- close header div -->
     
 <form  id="form1" action=" ">
@@ -243,9 +264,9 @@ body label {
 <input type="radio" class="option-input radio" name="con" value="0" />Hot liquid<br />
 <input type="radio" class="option-input radio" name="con" value="25" />Gases<br />
 <input type="radio" class="option-input radio" name="con" value="0" />Light<br />
-<input type="radio" class="option-input radio" name="con" value="0" /><br />
+<input type="radio" class="option-input radio" name="con" value="0" />Metal<br />
 
-<h2>What is the symbol for potassium</h2>
+<h2>What is the symbol for potassium?</h2>
 <input type="radio" class="option-input radio" name="ifstate" value="0" />P<br />
 <input type="radio" class="option-input radio" name="ifstate" value="0" />Po<br />
 <input type="radio" class="option-input radio" name="ifstate" value="0" />Ta<br />
@@ -254,7 +275,7 @@ body label {
 <input type="submit" class="submit" value="Submit">
 </form>
     
-    <p>Your grade is: <span id="grade">__</span></p>
+    <span id="grade"></span>
 <p id="grade2"></p>
 </div><!-- close main div -->
     
@@ -270,11 +291,11 @@ document.getElementById("form1").onsubmit=function() {
 	   
 	   result = variable + sub + con + ifstate;
        document.getElementById("grade").innerHTML = result;
-	   if (result == 0) {result2 = "I don't think you studied."};
-       if (result == 25) {result2 = "You need to spend more time. Try again."};
-       if (result == 50) {result2 = "I think you could do better. Try again."};
-       if (result == 75) {result2 = "So close. Try again."};
-       if (result == 100) {result2 = "Excellent! You're a JavaScript pro!"};
+	   if (result == 0) {result2 = "I think you need to study more."};
+       if (result == 25) {result2 = "I think you could do better. Try again."};
+       if (result == 50) {result2 = "Unlucky this time. Have another read over the elements"};
+       if (result == 75) {result2 = "So close. Try again!"};
+       if (result == 100) {result2 = "[O][Mg] You are amazing! "};
 document.getElementById("grade2").innerHTML = result2; 
 
 

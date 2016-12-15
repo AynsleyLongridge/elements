@@ -9,8 +9,8 @@
  */
 
 .animated {
-  -webkit-animation-duration: 12s;
-  animation-duration: 20s;
+  -webkit-animation-duration: 40s;
+  animation-duration: 40s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -287,28 +287,28 @@
   }
 
   6.5% {
-    -webkit-transform: translateX(-6px) rotateY(-9deg);
-    transform: translateX(-6px) rotateY(-9deg);
+    -webkit-transform: translateX(-2px) rotateY(-6deg);
+    transform: translateX(-4px) rotateY(-6deg);
   }
 
   18.5% {
-    -webkit-transform: translateX(5px) rotateY(7deg);
-    transform: translateX(5px) rotateY(7deg);
+    -webkit-transform: translateX(-5px) rotateY(-7deg);
+    transform: translateX(-5px) rotateY(-7deg);
   }
 
   31.5% {
-    -webkit-transform: translateX(-3px) rotateY(-5deg);
-    transform: translateX(-3px) rotateY(-5deg);
+    -webkit-transform: translateX(-7px) rotateY(-8deg);
+    transform: translateX(-7px) rotateY(-9deg);
   }
 
   43.5% {
-    -webkit-transform: translateX(2px) rotateY(3deg);
-    transform: translateX(2px) rotateY(3deg);
+    -webkit-transform: translateX(-9px) rotateY(-10deg);
+    transform: translateX(-9px) rotateY(-12deg);
   }
 
   50% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
+    -webkit-transform: translateX(-150);
+    transform: translateX(-15);
   }
 }
 

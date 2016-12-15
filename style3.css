@@ -24,7 +24,7 @@ h1 {
 
 .h2o {color: #416EE2;}
 
-.h2h {color: #EA3A3A;}
+.h2h {color: #EA0F0F; }
 
 .h2p {color: #F18624;}
 
@@ -33,7 +33,7 @@ h1 {
 h2 {
     font-family: "Short Stack", sans-serif;
     align-content: center;
-    font-size: 3em;
+    font-size: 4em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     margin-top: 60px;
@@ -44,8 +44,8 @@ h2 {
 p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .container {
@@ -80,6 +80,7 @@ p {
     margin-left: 100px;
     top: 250px;
     
+    
 }
 
 .neon {
@@ -89,6 +90,13 @@ p {
     
 }
 
+.shadow {
+    position: absolute;
+    top: 470px;
+    width: 60%;
+    left: 80px;
+    z-index: -20;
+}
 
 .sidebar {
      position: fixed;
@@ -183,7 +191,7 @@ p {
      height: 4000px;
      width: auto;
      position: relative;
-     background: rgba(97, 255, 208, 0.8);
+     background: #A0F4CB;
      overflow: auto;
      z-index: 1;
 }
@@ -231,3 +239,45 @@ p {
 
 }
      
+
+
+
+/*-------------HELIUM PARAGRAPH-------*/
+.hintro {
+    font-size: 8em;
+}
+
+h3 {
+    margin-left: 90x;
+    margin-right: 90px;
+}
+
+.h3hel {
+    font-family: "Open Sans", sans-serif;
+    align-content: center;
+    font-size: 1.5em;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    z-index: 1;
+    
+   }
+
+.h3hell {
+    font-family: "Open Sans", sans-serif;
+    align-content: center;
+    font-size: 1.7em;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    z-index: 1;
+    
+   }
+
+.h3end {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4em;
+    margin-left: 60px;
+    margin-right: 60px;
+}

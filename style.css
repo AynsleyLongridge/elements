@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: rgba(236, 238, 237, 0.89);
+    background-color: white;
+        rgba(236, 238, 237, 0.89);
 }
 
 h1 {
@@ -37,4 +38,24 @@ h1 {
 }
 
 .helium {margin-left: 20px;}
+
+
+
+
+
+
+/*-------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
