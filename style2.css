@@ -57,56 +57,56 @@ html {
     @-webkit-keyframes colorchange {
       0% {
         
-        color: #FF6069;
+        color: rgba(137, 164, 250, 0.72);
       }
       
       10% {
         
-        color: #F7931E;
+        color: #C4EEF3;
       }
       
       20% {
         
-        color: #FF6069;
+        color: #FAAF57;
       }
       
       30% {
         
-        color: #F7931E;
+        color: #A0F4CB;
       }
       
       40% {
         
-        color: #FF6069;
+        color: rgba(252, 75, 69, 0.83);
       }
       
       50% {
         
-        color: #F7931E;
+        color: rgba(137, 164, 250, 0.72);
       }
       
       60% {
         
-        color: #FF6069;
+        color: #C4EEF3;
       }
       
       70% {
         
-        color: #F7931E;
+        color: #FAAF57;
       }
       80% {
      
-        color: #FF6069;
+        color: #A0F4CB;
       }
       
       90% {
      
-        color: #F7931E;
+        color: rgba(252, 75, 69, 0.83);
       }
       
       100% {
         
-        color: pink;
+        color: rgba(137, 164, 250, 0.72);
       }
     }
 
@@ -132,7 +132,7 @@ html {
 
 .button:hover {
     color: black;
-    border: 5px solid #E8388C;
+    border: 5px solid #FAAF57;
     transition: 0.4s;
 
 }
