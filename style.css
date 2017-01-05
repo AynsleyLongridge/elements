@@ -15,6 +15,7 @@ h1 {
 }
 
 .container { z-index: -1;
+    margin-top: 300px;
 }
 
 
