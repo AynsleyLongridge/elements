@@ -28,7 +28,7 @@ h1 {
 
 .h2p {color: #F18624;}
 
-.h2ch {color: #49F09F;}
+.h2ch {color: #26BC6D;}
 
 h2 {
     font-family: "Short Stack", sans-serif;
@@ -161,7 +161,10 @@ p {
     height: 19%;
 }
  
-
+.banana {
+    position: absolute;
+    float: right;
+}
 /*---------content tabs for each element-----*/
 
 
@@ -191,7 +194,7 @@ p {
      height: 4000px;
      width: auto;
      position: relative;
-     background: #A0F4CB;
+     background: #A5E8C7;
      overflow: auto;
      z-index: 1;
 }

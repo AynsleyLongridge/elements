@@ -2,12 +2,16 @@
     margin: 0;
     padding: 0;
     border: 0;
-    background-color: white;
-        rgba(236, 238, 237, 0.89);
+}
+
+
+body{
+    background-color: #F4FFFB;
+    padding-top: 80px;
 }
 
 h1 {
-    font-family: "Quicksand", sans-serif;
+    
     align-content: center;
     font-size: 10em;
     z-index: -1;
@@ -18,37 +22,128 @@ h1 {
     margin-top: 300px;
 }
 
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    
+}
 
+.click {
+    margin-top: 160px;
+}
 
 .container2{ 
     z-index: 1;
     align-content: center;
     position: absolute;
-    top: 200px;
-    left: 180px;
+    top: 380px;
+    left: 200px;
 
 }
 
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin top: 300px;
+}
 
 
-.potassium { margin-right:20px;
+.potassium { margin-right:50px;
 }
 .neon {margin-right: 20px;}
 
 .calcium {margin-left: 10px;
 }
 
-.helium {margin-left: 20px;}
+.helium {
+    margin-left: 40px;
+    padding-left: 40px;
+
+}
 
 
 
 
 
 
-/*-------
+/*------- main text-----------*/
 
 
 
+ .awesome {
+      
+      font-family: "Short Stack", sans-serif;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+    padding-top: 10px;
+      
+      color:#313131;
+      font-size:95px;
+      font-weight: bold;
+      position: absolute;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: rgba(137, 164, 250, 0.72);
+      }
+      
+      10% {
+        
+        color: #C4EEF3;
+      }
+      
+      20% {
+        
+        color: #FAAF57;
+      }
+      
+      30% {
+        
+        color: #A0F4CB;
+      }
+      
+      40% {
+        
+        color: rgba(252, 75, 69, 0.83);
+      }
+      
+      50% {
+        
+        color: rgba(137, 164, 250, 0.72);
+      }
+      
+      60% {
+        
+        color: #C4EEF3;
+      }
+      
+      70% {
+        
+        color: #A0F4CB;
+      }
+      80% {
+     
+        color: #FAAF57;;
+      }
+      
+      90% {
+     
+        color: rgba(252, 75, 69, 0.83);
+      }
+      
+      100% {
+        
+        color: rgba(137, 164, 250, 0.72);
+      }
+    }
 
 
 
