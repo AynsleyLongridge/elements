@@ -4,10 +4,16 @@
     border: 0;
 }
 
-
+.jumpquiz {
+    float: right;
+    margin-right: 30px;
+    margin-top: 330px;
+    
+}
 body{
     background-color: #F4FFFB;
     padding-top: 80px;
+    
 }
 
 h1 {
