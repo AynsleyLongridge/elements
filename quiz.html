@@ -5,6 +5,10 @@
 <title>JavaScript Quiz</title>
     <style>
         
+        *{
+            font-family: "Open Sans", serif;
+            
+        }
 h1 {
     font-family: "Short Stack", sans-serif;
     font-size: 3em;
@@ -88,7 +92,7 @@ border-radius: 10px;
   top: 13.33333px;
   right: 0;
   bottom: 0;
-  left: 0;
+  left: 40px;
   height: 40px;
   width: 40px;
   -webkit-transition: all 0.15s ease-out 0s;
@@ -132,6 +136,7 @@ border-radius: 10px;
 }
 .option-input.radio {
   border-radius: 50%;
+  margin-left: 40px;
 }
 .option-input.radio::after {
   border-radius: 50%;
@@ -157,6 +162,7 @@ body {
   color: black;
   font-family: "Open sans condensed", sans-serif;
   text-align: left;
+
 }
         
 body div {
@@ -173,33 +179,31 @@ body label {
 .submit {
 
     text-decoration: none;
-    text-transform: uppercase;
-    color: black;
-    font-family: "Short Stack", sans-serif;
+    text-transform: none;
+    color: whitesmoke;
+    font-family: "Open Sans" serif;
     font-size: 1.4em;
     margin-top: 60px;
     margin-bottom: 60px;
+    margin-left: 80px;
     padding: 8px;
-    border: 7px solid rgba(137, 164, 250, 0.72);
-    background: transparent;
+    background: 7px #7698ED;
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border-color: transparent;
     animation: fadeAndScale 2s ease-in;
     
 }
 
 
 .submit:hover {
-    color: rgba(137, 164, 250, 0.72);
-    border: 7px solid black;
+    color:#7698ED;
+    background: white;
     
     transition: 0.4s;
 
 }
      
-.grade {font-family: "Short Stack", sans-serif;
-        font-size: 2.4em;
-    margin-top: 30px;}
-    
+
 .result {font-family: "Short Stack", sans-serif;
         font-size: 2.4em;
     margin-top: 30px;}
@@ -221,6 +225,21 @@ body label {
     height: 16%;
 }
         
+        .result2 {
+            font-family: 'Open Sans', serif;
+            font-size: 2.6em;
+        }
+
+        p{
+            font-family: 'Open Sans', serif;
+            padding-left: 160px;
+            margin-top: -25px;
+            
+        }
+        
+        .grade {
+            margin-left: 60px;
+        }
 </style>
 
 </head>
@@ -242,35 +261,35 @@ body label {
 <h2>Which element makes up over twenty percent of the Earth's atmosphere?</h2>
     
     
-<input type="radio" class="option-input radio" name="variable" value="0" /><span class="radio"> Potassium<br /></span>
+    <input type="radio" class="option-input radio" name="variable" value="0" /><span class="radio"> <p>Potassium</p><br /></span>
         
        
         
-<input type="radio" class="option-input radio" name="variable" value="0" /><span class="radio">Helium<br /></span>
+    <input type="radio" class="option-input radio" name="variable" value="0" /><span class="radio"><p>Helium</p><br /></span>
         
-<input type="radio" class="option-input radio" name="variable" value="25" /><span class="radio">Oxygen<br /></span>
+    <input type="radio" class="option-input radio" name="variable" value="25" /><span class="radio"><p>Oxygen</p><br /></span>
         
-<input type="radio" class="option-input radio" name="variable" value="0" /><span class="radio">Calcium<br /></span>
+    <input type="radio" class="option-input radio" name="variable" value="0" /><span class="radio"><p>Calcium</p><br /></span>
 
         
     
 <h2>What system uses calcium to help transmit impulses through your body?</h2>
-    <span><input type="radio" class="option-input radio" name="sub" value="25" /></span>Nervous system<br />
-    <span><input type="radio" class="option-input radio" name="sub" value="0" /></span>Circulatory system<br />
-    <span><input type="radio" class="option-input radio" name="sub" value="0" /></span>Muscular System<br />
-    <span><input type="radio" class="option-input radio" name="sub" value="0" /></span>Respiratory system<br />
+    <span><input type="radio" class="option-input radio" name="sub" value="25" /></span><p>Nervous system</p><br />
+    <span><input type="radio" class="option-input radio" name="sub" value="0" /></span><p>Circulatory system</p><br />
+    <span><input type="radio" class="option-input radio" name="sub" value="0" /></span><p>Muscular System</p><br />
+    <span><input type="radio" class="option-input radio" name="sub" value="0" /></span><p>Respiratory system</p><br />
 
 <h2>The sun is a big ball of...</h2>
-<input type="radio" class="option-input radio" name="con" value="0" />Hot liquid<br />
-<input type="radio" class="option-input radio" name="con" value="25" />Gases<br />
-<input type="radio" class="option-input radio" name="con" value="0" />Light<br />
-<input type="radio" class="option-input radio" name="con" value="0" />Metal<br />
+    <input type="radio" class="option-input radio" name="con" value="0" /><p>Hot liquid</p><br />
+    <input type="radio" class="option-input radio" name="con" value="25" /><p>Gases</p><br />
+    <input type="radio" class="option-input radio" name="con" value="0" /><p>Light</p><br />
+    <input type="radio" class="option-input radio" name="con" value="0" /><p>Metal</p><br />
 
 <h2>What is the symbol for potassium?</h2>
-<input type="radio" class="option-input radio" name="ifstate" value="0" />P<br />
-<input type="radio" class="option-input radio" name="ifstate" value="0" />Po<br />
-<input type="radio" class="option-input radio" name="ifstate" value="0" />Ta<br />
-<input type="radio" class="option-input radio" name="ifstate" value="25" />K<br />
+    <input type="radio" class="option-input radio" name="ifstate" value="0" /><p>P</p><br />
+    <input type="radio" class="option-input radio" name="ifstate" value="0" /><p>Po</p><br />
+    <input type="radio" class="option-input radio" name="ifstate" value="0" /><p>Ta</p><br />
+    <input type="radio" class="option-input radio" name="ifstate" value="25" /><p>K</p><br />
 
 <input type="submit" class="submit" value="Submit">
 </form>
@@ -291,7 +310,7 @@ document.getElementById("form1").onsubmit=function() {
 	   
 	   result = variable + sub + con + ifstate;
        document.getElementById("grade").innerHTML = result;
-	   if (result == 0) {result2 = "I think you need to study more."};
+    if (result == 0) {result2 = "I think you need to study more."};
        if (result == 25) {result2 = "I think you could do better. Try again."};
        if (result == 50) {result2 = "Unlucky this time. Have another read over the elements"};
        if (result == 75) {result2 = "So close. Try again!"};
