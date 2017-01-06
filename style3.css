@@ -7,6 +7,15 @@
 }
 
 
+/*-----------tooltip-----------*/
+.jumpquiz {
+    
+    float: right;
+    bottom: 10px;
+    position: absolute;
+}
+
+/*---------------*/
 
 h1 {
     font-family: "Short Stack", sans-serif;
@@ -68,7 +77,7 @@ p {
 
 .calcium {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 120px;
       top: 250px;
     
 }
@@ -90,7 +99,7 @@ p {
 
 .oxygen {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 110px;
     top: 250px;
     
     
@@ -98,7 +107,7 @@ p {
 
 .neon {
     position: absolute;
-    margin-left: 100px;
+    margin-left: 80px;
     top: 250px;
     
 }
