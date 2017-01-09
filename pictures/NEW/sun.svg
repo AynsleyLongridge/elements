@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="421px" height="404px" viewBox="0 0 421 404" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>SUN</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="209" cy="207" r="107"></circle>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="11" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.552941176   0 0 0 0 0.133333333  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-2" transform="translate(-65.000000, -44.000000)">
+            <g id="SUN" transform="translate(64.000000, 45.000000)">
+                <g id="Oval-22">
+                    <use fill="#F7CE26" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FF942F" stroke-width="1" xlink:href="#path-1"></use>
+                </g>
+                <path d="M234.328637,0.894480173 C216.543687,8.48657574 215.975071,24.8418945 228.973358,36.1892434 C234.12381,40.6855256 241.590219,43.4358513 246.288398,48.2237625 C260.686128,62.8964803 255.104151,77.3860457 241.074333,88.976828" id="Path-50" stroke="#FF8D21" stroke-width="4"></path>
+                <path d="M374.136109,216.713738 C356.351159,224.305834 355.782544,240.661152 368.780831,252.008501 C373.931282,256.504784 381.397691,259.255109 386.09587,264.043021 C400.4936,278.715738 394.911623,293.205304 380.881805,304.796086" id="Path-50" stroke="#FF8D21" stroke-width="4" transform="translate(377.165840, 260.754912) rotate(111.000000) translate(-377.165840, -260.754912) "></path>
+                <path d="M365.243442,70.8806224 C347.458491,79.636586 346.889876,98.4991745 359.888163,111.586072 C365.038615,116.771634 372.505023,119.943584 377.203202,125.465482 C391.600932,142.387527 386.018956,159.098342 371.989138,172.465991" id="Path-50" stroke="#FF8D21" stroke-width="4" transform="translate(368.273173, 121.673307) rotate(58.000000) translate(-368.273173, -121.673307) "></path>
+                <path d="M41.0318853,188.347401 C23.2469348,195.525007 22.6783196,210.98741 35.6766066,221.715252 C40.8270579,225.96606 48.2934668,228.566232 52.9916457,233.092748 C67.3893757,246.964411 61.8073992,260.662921 47.7775812,271.620907" id="Path-50" stroke="#FF8D21" stroke-width="4" transform="translate(44.061616, 229.984154) rotate(262.000000) translate(-44.061616, -229.984154) "></path>
+                <path d="M108.224993,301.689941 C90.4400429,309.282037 89.8714277,325.637356 102.869715,336.984704 C108.020166,341.480987 115.486575,344.231312 120.184754,349.019224 C134.582484,363.691941 129.000507,378.181507 114.970689,389.772289" id="Path-50" stroke="#FF8D21" stroke-width="4" transform="translate(111.254724, 345.731115) rotate(47.000000) translate(-111.254724, -345.731115) "></path>
+                <path d="M77.8007196,26.7945804 C60.0157691,36.6267837 59.4471538,57.8078684 72.4454408,72.5033422 C77.5958921,78.3262881 85.062301,81.888119 89.7604799,88.0887413 C104.15821,107.09076 98.5762335,125.855586 84.5464155,140.866321" id="Path-50" stroke="#FF8D21" stroke-width="4" transform="translate(80.830451, 83.830451) rotate(-45.000000) translate(-80.830451, -83.830451) "></path>
+                <path d="M272.166801,321.719839 C254.38185,329.311934 253.813235,345.667253 266.811522,357.014602 C271.961973,361.510884 279.428382,364.26121 284.126561,369.049121 C298.524291,383.721839 292.942314,398.211404 278.912496,409.802186" id="Path-50" stroke="#FF8D21" stroke-width="4" transform="translate(275.196532, 365.761012) rotate(-31.000000) translate(-275.196532, -365.761012) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
